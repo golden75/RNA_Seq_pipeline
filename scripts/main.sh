@@ -3,13 +3,13 @@
 echo `hostname`
 
 
-list="Uribe_014
-Uribe_07
-Uribe_C0
-Uribe_C14
-Uribe_C7
-Uribe_P14
-Uribe_P7"
+list="A14
+A7
+C0
+C14
+C7
+B14
+B7"
 
 for file in $list; do
         sbatch $1 $file
